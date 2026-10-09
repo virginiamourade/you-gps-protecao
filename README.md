@@ -1,23 +1,8 @@
-# You GPS Proteção — Protótipo acadêmico
+# You GPS Proteção — versão 1.4
+Protótipo acadêmico com dados inteiramente fictícios. O mapa usa o estilo claro CARTO Positron (dados OpenStreetMap), com ruas branco-acinzentadas e rótulos mais contrastantes. O avatar é uma silhueta sem círculo decorativo; a circunferência laranja permanece como área de exclusão judicial simulada.
 
-Site estático para apresentação acadêmica sobre tecnologia e medidas protetivas na violência doméstica.
+## Publicar
+Envie o arquivo `index.html` para a raiz do repositório `you-gps-protecao` no GitHub e faça commit. A Vercel fará novo deploy automaticamente. No Android, atualize a página para carregar a versão recente.
 
-## Publicação
-1. Crie um repositório GitHub separado, por exemplo `you-gps-protecao`.
-2. Envie `index.html` e `README.md` para a raiz do repositório e faça commit.
-3. Em Vercel, importe o repositório; Framework Preset: Other; Root Directory: `./`; publique.
-
-## Funcionalidades
-- Mapa OpenStreetMap com Leaflet.
-- Área de exclusão fictícia e simulação local de aproximação.
-- Painel institucional, painel de proteção e fundamentos jurídicos.
-- Layout adaptado a celulares.
-
-## Limites de segurança
-**Não rastreia pessoas**, não solicita GPS, não tem contas reais, não envia alertas, não grava dados e não é adequado para uso operacional. O cenário é inteiramente simulado e a posição do ponto no mapa é fictícia. A futura utilização institucional dependerá de autorização legal, projeto de segurança, governança de dados, testes e integração com órgãos competentes.
-
-## Dependências
-Leaflet e tiles OpenStreetMap são carregados pela internet. O uso operacional de tiles requer respeito à política do provedor e eventual infraestrutura própria.
-
-
-Atualização 1.3: avatar fictício no mapa, identificação DEMO-001, aproximação com zoom 17 para facilitar a leitura das ruas no celular. Nomes das ruas são desenhados nas imagens do OpenStreetMap e não podem ter sua fonte alterada individualmente via CSS; o zoom ajuda a leitura.
+## Limitações
+Requer internet para carregar o mapa. Nenhuma localização real é capturada, armazenada ou compartilhada. Nenhum alerta é enviado a autoridades.
