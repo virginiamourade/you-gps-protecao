@@ -38,7 +38,7 @@
 .monitor-avatar .name{bottom:70px}
 .route-note{position:absolute;top:12px;right:12px;z-index:850;background:#fffefa;border:1px solid #d8e4eb;box-shadow:0 2px 9px #0002;border-radius:9px;padding:8px 11px;font-size:12px;color:#24445c;font-weight:750;max-width:48%;pointer-events:none}
 @media(max-width:800px){.route-note{font-size:11px;max-width:54%}}
-</style></head><body><header><div><strong>◉ You GPS Proteção</strong><small>Tecnologia e medidas protetivas · v1.8</small></div><span class="demo">SIMULAÇÃO ACADÊMICA</span></header><main><p class="intro">Demonstração educativa com locais, personagens e eventos fictícios. Não realiza monitoramento real.</p><nav aria-label="Ambientes do protótipo"><button data-tab="autoridade" aria-selected="true">Painel institucional</button><button data-tab="vitima" aria-selected="false">Painel de proteção</button><button data-tab="juridico" aria-selected="false">Fundamentação jurídica</button></nav><div class="layout"><section class="panel"><div class="panel-inner"><h2 id="map-title">Área de proteção simulada</h2><p class="muted" id="map-subtitle">Mapa ilustrativo com avatar do monitorado fictício. Mapa claro com percurso vermelho tracejado, setas de direção, nome acima do avatar e deslocamento simulado pelas ruas.</p></div><div class="map-wrap"><div id="map" role="img" aria-label="Mapa demonstrativo com área de exclusão e avatar fictícios"></div><div class="route-note" id="route-note">Trajeto demonstrativo · sem GPS real</div><div class="map-legend">👤 Monitorado fictício · DEMO-001</div></div></section><section class="panel"><div class="panel-inner"><div id="autoridade"><h2>Central de acompanhamento</h2><p class="muted">Caso fictício: DEMO-001 · Medida protetiva simulada</p><div id="status" class="status" aria-live="polite">Situação simulada: sem alerta</div><div class="buttons"><button class="action primary" id="simulate">Iniciar percurso simulado</button><button class="action" id="reset">Reiniciar cenário</button></div><p class="muted" id="message" aria-live="polite">Clique em “Iniciar percurso simulado” para ver o avatar se deslocar pelas ruas.</p><div class="facts"><div class="fact"><b>Perímetro ilustrativo</b><span>400 metros (valor fictício)</span></div><div class="fact"><b>Fonte da posição</b><span>Dados simulados no navegador</span></div><div class="fact"><b>Decisão judicial</b><span>Somente cenário didático</span></div><div class="fact"><b>Notificações</b><span>Nenhuma mensagem externa</span></div></div></div><div id="vitima" class="hidden"><h2>Painel de proteção</h2><p class="muted">Exemplo de informações que poderiam ser disponibilizadas à pessoa protegida em sistema autorizado.</p><div class="status">Modo demonstração ativo</div><div class="notice">Em situação real de emergência, utilize os canais oficiais de atendimento. Este protótipo não aciona autoridades.</div><p class="muted">Uma implementação real precisaria de autenticação, protocolo institucional, notificações confiáveis, controles de acesso e proteção rigorosa de dados.</p></div><div id="juridico" class="hidden"><h2>Base jurídica para estudo</h2><p class="muted"><b>Lei Maria da Penha (Lei nº 11.340/2006):</b> medidas protetivas de urgência, especialmente art. 22, considerando alterações legislativas vigentes.</p><p class="muted"><b>Resolução CNJ nº 412/2021:</b> diretrizes para monitoração eletrônica de pessoas.</p><p class="muted"><b>LGPD (Lei nº 13.709/2018):</b> segurança, finalidade, necessidade e governança no tratamento de dados pessoais.</p><div class="notice">O rastreamento compulsório depende de fundamento jurídico e atuação de autoridades competentes. Este protótipo não substitui dispositivos oficiais nem determina violações automaticamente.</div></div></div></section></div><footer>Projeto demonstrativo para ensino e discussão institucional. Não coleta, transmite ou armazena localização de pessoas. Mapa ilustrativo com dados do OpenStreetMap e biblioteca Leaflet. Não use para emergências ou casos reais.</footer></main><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script><script>
+</style></head><body><header><div><strong>◉ You GPS Proteção</strong><small>Tecnologia e medidas protetivas · v1.9</small></div><span class="demo">SIMULAÇÃO ACADÊMICA</span></header><main><p class="intro">Demonstração educativa com locais, personagens e eventos fictícios. Não realiza monitoramento real.</p><nav aria-label="Ambientes do protótipo"><button data-tab="autoridade" aria-selected="true">Painel institucional</button><button data-tab="vitima" aria-selected="false">Painel de proteção</button><button data-tab="juridico" aria-selected="false">Fundamentação jurídica</button></nav><div class="layout"><section class="panel"><div class="panel-inner"><h2 id="map-title">Área de proteção simulada</h2><p class="muted" id="map-subtitle">Mapa ilustrativo com avatar do monitorado fictício. Mapa claro com histórico vermelho tracejado atrás do avatar e três segmentos de orientação com seta à frente.</p></div><div class="map-wrap"><div id="map" role="img" aria-label="Mapa demonstrativo com área de exclusão e avatar fictícios"></div><div class="route-note" id="route-note">Trajeto demonstrativo · sem GPS real</div><div class="map-legend">👤 Monitorado fictício · DEMO-001</div></div></section><section class="panel"><div class="panel-inner"><div id="autoridade"><h2>Central de acompanhamento</h2><p class="muted">Caso fictício: DEMO-001 · Medida protetiva simulada</p><div id="status" class="status" aria-live="polite">Situação simulada: sem alerta</div><div class="buttons"><button class="action primary" id="simulate">Iniciar percurso simulado</button><button class="action" id="reset">Reiniciar cenário</button></div><p class="muted" id="message" aria-live="polite">Clique em “Iniciar percurso simulado” para ver o avatar se deslocar pelas ruas.</p><div class="facts"><div class="fact"><b>Perímetro ilustrativo</b><span>400 metros (valor fictício)</span></div><div class="fact"><b>Fonte da posição</b><span>Dados simulados no navegador</span></div><div class="fact"><b>Decisão judicial</b><span>Somente cenário didático</span></div><div class="fact"><b>Notificações</b><span>Nenhuma mensagem externa</span></div></div></div><div id="vitima" class="hidden"><h2>Painel de proteção</h2><p class="muted">Exemplo de informações que poderiam ser disponibilizadas à pessoa protegida em sistema autorizado.</p><div class="status">Modo demonstração ativo</div><div class="notice">Em situação real de emergência, utilize os canais oficiais de atendimento. Este protótipo não aciona autoridades.</div><p class="muted">Uma implementação real precisaria de autenticação, protocolo institucional, notificações confiáveis, controles de acesso e proteção rigorosa de dados.</p></div><div id="juridico" class="hidden"><h2>Base jurídica para estudo</h2><p class="muted"><b>Lei Maria da Penha (Lei nº 11.340/2006):</b> medidas protetivas de urgência, especialmente art. 22, considerando alterações legislativas vigentes.</p><p class="muted"><b>Resolução CNJ nº 412/2021:</b> diretrizes para monitoração eletrônica de pessoas.</p><p class="muted"><b>LGPD (Lei nº 13.709/2018):</b> segurança, finalidade, necessidade e governança no tratamento de dados pessoais.</p><div class="notice">O rastreamento compulsório depende de fundamento jurídico e atuação de autoridades competentes. Este protótipo não substitui dispositivos oficiais nem determina violações automaticamente.</div></div></div></section></div><footer>Projeto demonstrativo para ensino e discussão institucional. Não coleta, transmite ou armazena localização de pessoas. Mapa ilustrativo com dados do OpenStreetMap e biblioteca Leaflet. Não use para emergências ou casos reais.</footer></main><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script><script>
 (function () {
   const status = document.getElementById('status');
   const msg = document.getElementById('message');
@@ -52,7 +52,7 @@
   const simulateBtn=document.getElementById('simulate');
   const startPoint=[-23.562,-46.647];
   const finishPoint=[-23.552,-46.635];
-  let routeLine=null, routeArrows=null;
+  let routeLine=null, routeArrows=null, guideLines=null;
   let routeAbort=null;
   let routeCache=null;
   const routeService='https://router.project-osrm.org/route/v1/driving/';
@@ -123,17 +123,40 @@
     simulateBtn.textContent='Percurso em andamento…';
     const distances=cumulative(path),total=distances[distances.length-1];
     if(routeLine)map.removeLayer(routeLine);
-    routeLine=L.polyline(path,{color:'#d51f2d',weight:5,opacity:.95,dashArray:'12 10',lineCap:'round',interactive:false}).addTo(map);
+    // O tracejado mostra SOMENTE o caminho já percorrido.
+    routeLine=L.polyline([path[0]],{color:'#d51f2d',weight:5,opacity:.95,dashArray:'12 10',lineCap:'round',interactive:false}).addTo(map);
     if(routeArrows)map.removeLayer(routeArrows);
-    routeArrows=L.layerGroup();
-    [0.22,0.44,0.66,0.88].forEach(f=>routeArrows.addLayer(arrowAt(path,distances,total*f)));
-    routeArrows.addTo(map);
+    routeArrows=L.layerGroup().addTo(map);
+    if(guideLines)map.removeLayer(guideLines);
+    guideLines=L.layerGroup().addTo(map);
+    function section(from,to){
+      const points=[interpolate(path,distances,from)];
+      for(let i=1;i<path.length-1;i++)if(distances[i]>from&&distances[i]<to)points.push(path[i]);
+      points.push(interpolate(path,distances,to));
+      return points;
+    }
+    function updateGuidance(progress){
+      const traveled=total*progress;
+      routeLine.setLatLngs(section(0,Math.max(0.001,traveled)));
+      guideLines.clearLayers();
+      routeArrows.clearLayers();
+      // Três traços à frente do avatar, seguindo a geometria da rua.
+      const gap=8,segment=20,lead=14;
+      for(let j=0;j<3;j++){
+        const a=Math.min(total,traveled+lead+j*(segment+gap));
+        const b=Math.min(total,a+segment);
+        if(b>a+0.5)L.polyline(section(a,b),{color:'#e11d2e',weight:6,opacity:1,lineCap:'round',interactive:false}).addTo(guideLines);
+      }
+      const arrowDist=Math.min(total,traveled+lead+3*segment+2*gap+6);
+      if(arrowDist>traveled+2)routeArrows.addLayer(arrowAt(path,distances,arrowDist));
+    }
+    updateGuidance(0);
     point.setLatLng(path[0]);
     point.setIcon(avatarIcon(false,true));
     map.setView(path[0],17,{animate:false});
     status.textContent='DESLOCAMENTO SIMULADO: avatar em movimento';
-    note.textContent=roadMatched?'Linha vermelha e setas · rota simulada':'Linha vermelha · trajeto ilustrativo';
-    msg.textContent=roadMatched?'O avatar segue a linha vermelha tracejada e as setas de direção pelas ruas, com o mapa acompanhando.':'Serviço de rotas indisponível. Exibindo apenas um percurso ilustrativo, que pode não coincidir com as ruas.';
+    note.textContent=roadMatched?'3 traços à frente · histórico atrás':'Trajeto ilustrativo · sem GPS real';
+    msg.textContent=roadMatched?'O tracejado vermelho registra o percurso já feito. Três traços e uma seta indicam a direção à frente.':'Serviço de rotas indisponível. A demonstração pode não coincidir exatamente com as ruas.';
     const duration=22000; // 22 segundos para facilitar a observação em apresentação
     let started=null,lastPan=0;
     function tick(now){
@@ -142,6 +165,7 @@
       const fraction=Math.min(1,(now-started)/duration);
       const p=interpolate(path,distances,total*fraction);
       point.setLatLng(p);
+      updateGuidance(fraction);
       if(now-lastPan>110){map.panTo(p,{animate:false});lastPan=now;}
       if(fraction<1){movementTimer=requestAnimationFrame(tick);}
       else{
@@ -171,6 +195,7 @@
       point.setLatLng(startPoint);point.setIcon(avatarIcon(false,false));
       if(routeLine){map.removeLayer(routeLine);routeLine=null;}
       if(routeArrows){map.removeLayer(routeArrows);routeArrows=null;}
+      if(guideLines){map.removeLayer(guideLines);guideLines=null;}
       map.setView(startPoint,17,{animate:false});
     }
   });

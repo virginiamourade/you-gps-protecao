@@ -1,1 +1,1 @@
-You GPS Proteção v1.8 — simulação acadêmica. Atualize index.html no GitHub. Linha vermelha tracejada e setas orientam o trajeto fictício. Sem GPS real, sem notificações.
+You GPS Proteção v1.9 — demonstração fictícia. Histórico vermelho tracejado atrás do avatar; três segmentos vermelhos e uma seta à frente, seguindo a rota. Substitua index.html no GitHub. Não rastreia pessoas.
