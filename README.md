@@ -1,1 +1,1 @@
-You GPS Proteção v1.7 — protótipo acadêmico. Atualize index.html no GitHub. O botão inicia animação contínua por rota viária obtida do serviço público OSRM, usando pontos fictícios. Se indisponível, usa trajeto ilustrativo explicitamente identificado. Não rastreia ninguém. Requer conexão com a internet.
+You GPS Proteção v1.8 — simulação acadêmica. Atualize index.html no GitHub. Linha vermelha tracejada e setas orientam o trajeto fictício. Sem GPS real, sem notificações.
