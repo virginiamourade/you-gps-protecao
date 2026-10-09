@@ -1,1 +1,1 @@
-You GPS Proteção v1.6 — protótipo fictício. Atualize index.html no GitHub. Mapa OSM, zoom melhorado, rótulo acima da cabeça, animação pulsante durante trajeto fictício. Não há rastreamento real.
+You GPS Proteção v1.7 — protótipo acadêmico. Atualize index.html no GitHub. O botão inicia animação contínua por rota viária obtida do serviço público OSRM, usando pontos fictícios. Se indisponível, usa trajeto ilustrativo explicitamente identificado. Não rastreia ninguém. Requer conexão com a internet.
