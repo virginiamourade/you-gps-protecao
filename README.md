@@ -18,3 +18,6 @@ Site estático para apresentação acadêmica sobre tecnologia e medidas proteti
 
 ## Dependências
 Leaflet e tiles OpenStreetMap são carregados pela internet. O uso operacional de tiles requer respeito à política do provedor e eventual infraestrutura própria.
+
+
+Atualização 1.3: avatar fictício no mapa, identificação DEMO-001, aproximação com zoom 17 para facilitar a leitura das ruas no celular. Nomes das ruas são desenhados nas imagens do OpenStreetMap e não podem ter sua fonte alterada individualmente via CSS; o zoom ajuda a leitura.
